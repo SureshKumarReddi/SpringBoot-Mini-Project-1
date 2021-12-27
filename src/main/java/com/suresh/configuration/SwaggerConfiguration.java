@@ -17,7 +17,7 @@ public class SwaggerConfiguration {
 	public Docket apiDocGen() {
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
-				.apis(RequestHandlerSelectors.basePackage("com.Suresh.controllers"))
+				.apis(RequestHandlerSelectors.basePackage("com.suresh.controllers"))
 				.paths(PathSelectors.any())
 				.build();
 	}
